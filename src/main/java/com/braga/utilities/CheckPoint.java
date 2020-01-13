@@ -3,21 +3,24 @@ package com.braga.utilities;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 
 public class CheckPoint {
+    private static final Logger log = LogManager.getLogger(CheckPoint.class.getName());
     public static HashMap<String, String> resultMap = new HashMap<>();
     private static String PASS = "PASS";
     private static String FAIL = "FAIL";
 
     public static void clearHashMap() {
-        System.out.println("Clearing Results Hash Map");
+        log.info("Clearing Results Hash Map");
         resultMap.clear();
     }
 
     private static void setStatus(String mapKey, String status) {
         resultMap.put(mapKey, status);
-        System.out.println(mapKey + " :-> " + resultMap.get(mapKey));
+        log.info(mapKey + " :-> " + resultMap.get(mapKey));
     }
 
     public static void mark(String testName, boolean result, String resultMessage) {
@@ -30,7 +33,7 @@ public class CheckPoint {
                 setStatus(mapKey, FAIL);
             }
         } catch (Exception e) {
-            System.out.println("Exception Ocurred...");
+            log.error("Exception Ocurred...");
             setStatus(mapKey, FAIL);
             e.printStackTrace();
         }
@@ -46,7 +49,7 @@ public class CheckPoint {
                 setStatus(mapKey, FAIL);
             }
         } catch (Exception e) {
-            System.out.println("Exception Ocurred...");
+            log.error("Exception Ocurred...");
             setStatus(mapKey, FAIL);
             e.printStackTrace();
         }
@@ -58,10 +61,10 @@ public class CheckPoint {
 
         for (int i = 0; i < resultList.size(); i++) {
             if (resultList.contains(FAIL)) {
-                System.out.println("Test Method Failed");
+                log.info("Test Method Failed");
                 Assert.assertTrue(false);
             } else {
-                System.out.println("Test Method Successful");
+                log.info("Test Method Successful");
                 Assert.assertTrue(true);
             }
         }

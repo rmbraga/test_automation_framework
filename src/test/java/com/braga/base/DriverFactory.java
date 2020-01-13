@@ -1,5 +1,9 @@
 package com.braga.base;
 
+import com.braga.utilities.Constants;
+import com.braga.utilities.Util;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -10,6 +14,7 @@ import org.openqa.selenium.remote.CapabilityType;
 import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
+    private static final Logger log = LogManager.getLogger(DriverFactory.class.getName());
     // Singleton
     // Only one instance of the class can exist at a time
     private static final DriverFactory instance = new DriverFactory();
@@ -28,10 +33,10 @@ public class DriverFactory {
         setDriver(browser);
         if (threadedDriver.get() == null) {
             try {
-                if (browser.equalsIgnoreCase("ff")) {
+                if (browser.equalsIgnoreCase(Constants.FF)) {
                     driver = new FirefoxDriver(setFFOptions());
                     threadedDriver.set(driver);
-                } else if (browser.equalsIgnoreCase("chrome")) {
+                } else if (browser.equalsIgnoreCase(Constants.CHROME)) {
                     driver = new ChromeDriver(setChromeOptions());
                     threadedDriver.set(driver);
                 }
@@ -52,24 +57,24 @@ public class DriverFactory {
     private void setDriver(String browser) {
         String driverPath = "";
         String os = System.getProperty("os.name").toLowerCase().substring(0, 3);
-        String directory = System.getProperty("user.dir") + "//" + "//drivers//";
+        String directory = Constants.USER_DIRECTORY + "//" + Constants.DRIVERS_DIRECTORY;
         String driverKey = "";
         String driverValue = "";
 
-        System.out.println("OS name from system property :: " + os);
+        log.info("OS name from system property :: " + os);
 
-        if (browser.equalsIgnoreCase("ff")) {
-            driverKey = "webdriver.gecko.driver";
-            driverValue = "geckodriver";
-        } else if (browser.equalsIgnoreCase("chrome")) {
-            driverKey = "webdriver.chrome.driver";
-            driverValue = "chromedriver";
+        if (browser.equalsIgnoreCase(Constants.FF)) {
+            driverKey = Constants.GECKO_DRIVER_KEY;
+            driverValue = Constants.GECKO_DRIVER_VALUE;
+        } else if (browser.equalsIgnoreCase(Constants.CHROME)) {
+            driverKey = Constants.CHROME_DRIVER_KEY;
+            driverValue = Constants.CHROME_DRIVER_VALUE;
         } else {
-            System.out.println("Browser type not implemented/supported!");
+            log.info("Browser type not implemented/supported!");
         }
 
         driverPath = directory + driverValue + (os.equals("win") ? ".exe" : "");
-        System.out.println("Driver Binary :: " + driverPath);
+        log.info("Driver Binary :: " + driverPath);
         System.setProperty(driverKey, driverPath);
     }
 

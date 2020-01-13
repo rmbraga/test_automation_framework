@@ -2,6 +2,8 @@ package com.braga.base;
 
 import com.braga.utilities.Util;
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -14,6 +16,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class CustomDriver {
+    private static final Logger log = LogManager.getLogger(CustomDriver.class.getName());
     public WebDriver driver;
     private JavascriptExecutor js;
 
@@ -31,7 +34,7 @@ public class CustomDriver {
      */
     public void refresh() {
         driver.navigate().refresh();
-        System.out.println("The Current Browser location was Refreshed...");
+        log.info("The Current Browser location was Refreshed...");
         //Util.sleep(3000, "The Current Browser location was Refreshed...");
     }
 
@@ -40,7 +43,7 @@ public class CustomDriver {
      */
     public String getTitle() {
         String title = driver.getTitle();
-        System.out.println("Title of the page is :: " + title);
+        log.info("Title of the page is :: " + title);
         return title;
     }
 
@@ -49,7 +52,7 @@ public class CustomDriver {
      */
     public String getURL() {
         String url = driver.getCurrentUrl();
-        System.out.println("Current URL is :: " + url);
+        log.info("Current URL is :: " + url);
         return url;
     }
 
@@ -58,7 +61,7 @@ public class CustomDriver {
      */
     public void navigateBrowserBack() {
         driver.navigate().back();
-        System.out.println("Navigate back");
+        log.info("Navigate back");
     }
 
     /**
@@ -66,7 +69,7 @@ public class CustomDriver {
      */
     public void navigateBrowserForward() {
         driver.navigate().back();
-        System.out.println("Navigate back");
+        log.info("Navigate back");
     }
 
     /***
@@ -97,10 +100,10 @@ public class CustomDriver {
             } else if (locatorType.contains("partiallink")) {
                 by = By.partialLinkText(locator);
             } else {
-                System.out.println("Locator type not supported");
+                log.info("Locator type not supported");
             }
         } catch (Exception e) {
-            System.out.println("By type not found with: " + locatorType);
+            log.info("By type not found with: " + locatorType);
         }
         return by;
     }
@@ -119,7 +122,7 @@ public class CustomDriver {
         try {
             element = driver.findElement(byType);
         } catch (Exception e) {
-            System.out.println("Element not found with: " + locator);
+            log.error("Element not found with: " + locator);
             e.printStackTrace();
         }
         return element;
@@ -138,12 +141,12 @@ public class CustomDriver {
         try {
             elementList = driver.findElements(byType);
             if (elementList.size() > 0) {
-                System.out.println("Element List found with: " + locator);
+                log.info("Element List found with: " + locator);
             } else {
-                System.out.println("Element List not found with: " + locator);
+                log.info("Element List not found with: " + locator);
             }
         } catch (Exception e) {
-            System.out.println("Element List not found with: " + locator);
+            log.error("Element List not found with: " + locator);
             e.printStackTrace();
         }
         return elementList;
@@ -176,12 +179,12 @@ public class CustomDriver {
         try {
             element.click();
             if (timeToWait == 0) {
-                System.out.println("Clicked On :: " + info);
+                log.info("Clicked On :: " + info);
             } else {
                 Util.sleep(timeToWait, "Clicked on :: " + info);
             }
         } catch (Exception e) {
-            System.out.println("Cannot click on :: " + info);
+            log.error("Cannot click on :: " + info);
             takeScreenshot("Click ERROR", "");
         }
     }
@@ -231,9 +234,9 @@ public class CustomDriver {
     public void javascriptClick(WebElement element, String info) {
         try {
             js.executeScript("arguments[0].click();", element);
-            System.out.println("Clicked on :: " + info);
+            log.info("Clicked on :: " + info);
         } catch (Exception e) {
-            System.out.println("Cannot click on :: " + info);
+            log.error("Cannot click on :: " + info);
         }
     }
 
@@ -247,9 +250,9 @@ public class CustomDriver {
         WebElement element = getElement(locator, info);
         try {
             js.executeScript("arguments[0].click();", element);
-            System.out.println("Clicked on :: " + info);
+            log.info("Clicked on :: " + info);
         } catch (Exception e) {
-            System.out.println("Cannot click on :: " + info);
+            log.error("Cannot click on :: " + info);
         }
     }
 
@@ -263,16 +266,16 @@ public class CustomDriver {
         try {
             driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
             WebElement element = null;
-            System.out.println("Waiting for max:: " + timeout + " seconds for element to be clickable");
+            log.info("Waiting for max:: " + timeout + " seconds for element to be clickable");
 
             WebDriverWait wait = new WebDriverWait(driver, 15);
             element = wait.until(
                     ExpectedConditions.elementToBeClickable(locator));
             element.click();
-            System.out.println("Element clicked on the web page");
+            log.info("Element clicked on the web page");
             driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         } catch (Exception e) {
-            System.out.println("Element not appeared on the web page");
+            log.error("Element not appeared on the web page");
             driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         }
     }
@@ -291,10 +294,10 @@ public class CustomDriver {
             }
             //Util.sleep(1000, "Waiting Before Entering Data");
             element.sendKeys(data);
-            System.out.println("Send Keys on element :: "
+            log.info("Send Keys on element :: "
                     + info + " with data :: " + data);
         } catch (Exception e) {
-            System.out.println("Cannot send keys on element :: "
+            log.error("Cannot send keys on element :: "
                     + info + " with data :: " + data);
         }
     }
@@ -341,14 +344,14 @@ public class CustomDriver {
      * @param info    - Information about element
      */
     public String getText(WebElement element, String info) {
-        System.out.println("Getting Text on element :: " + info);
+        log.info("Getting Text on element :: " + info);
         String text = null;
         text = element.getText();
         if (text.length() == 0) {
             text = element.getAttribute("innerText");
         }
         if (!text.isEmpty()) {
-            System.out.println(" The text is : " + text);
+            log.info(" The text is : " + text);
         } else {
             text = "NOT_FOUND";
         }
@@ -379,9 +382,9 @@ public class CustomDriver {
         if (element != null) {
             enabled = element.isEnabled();
             if (enabled)
-                System.out.println("Element :: " + info + " is Enabled");
+                log.info("Element :: " + info + " is Enabled");
             else
-                System.out.println("Element :: " + info + " is Disabled");
+                log.info("Element :: " + info + " is Disabled");
         }
         return enabled;
     }
@@ -409,9 +412,9 @@ public class CustomDriver {
         if (element != null) {
             displayed = element.isDisplayed();
             if (displayed)
-                System.out.println("Element :: " + info + " is displayed");
+                log.info("Element :: " + info + " is displayed");
             else
-                System.out.println("Element :: " + info + " is NOT displayed");
+                log.info("Element :: " + info + " is NOT displayed");
         }
         return displayed;
     }
@@ -437,9 +440,9 @@ public class CustomDriver {
         if (element != null) {
             selected = element.isSelected();
             if (selected)
-                System.out.println("Element :: " + info + " is selected");
+                log.info("Element :: " + info + " is selected");
             else
-                System.out.println("Element :: " + info + " is already selected");
+                log.info("Element :: " + info + " is already selected");
         }
         return selected;
     }
@@ -463,9 +466,9 @@ public class CustomDriver {
     public void Check(WebElement element, String info) {
         if (!isSelected(element, info)) {
             elementClick(element, info);
-            System.out.println("Element :: " + info + " is checked");
+            log.info("Element :: " + info + " is checked");
         } else
-            System.out.println("Element :: " + info + " is already checked");
+            log.info("Element :: " + info + " is already checked");
     }
 
     /**
@@ -490,9 +493,9 @@ public class CustomDriver {
     public void UnCheck(WebElement element, String info) {
         if (isSelected(element, info)) {
             elementClick(element, info);
-            System.out.println("Element :: " + info + " is unchecked");
+            log.info("Element :: " + info + " is unchecked");
         } else
-            System.out.println("Element :: " + info + " is already unchecked");
+            log.info("Element :: " + info + " is already unchecked");
     }
 
     /**
@@ -515,7 +518,7 @@ public class CustomDriver {
     public Boolean Submit(WebElement element, String info) {
         if (element != null) {
             element.submit();
-            System.out.println("Element :: " + info + " is submitted");
+            log.info("Element :: " + info + " is submitted");
             return true;
         } else
             return false;
@@ -550,14 +553,14 @@ public class CustomDriver {
         WebElement element = null;
         try {
             driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
-            System.out.println("Waiting for max:: " + timeout + " seconds for element to be available");
+            log.info("Waiting for max:: " + timeout + " seconds for element to be available");
             WebDriverWait wait = new WebDriverWait(driver, timeout);
             element = wait.until(
                     ExpectedConditions.visibilityOfElementLocated(byType));
-            System.out.println("Element appeared on the web page");
+            log.info("Element appeared on the web page");
             driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         } catch (Exception e) {
-            System.out.println("Element not appeared on the web page");
+            log.error("Element not appeared on the web page");
             driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         }
         return element;
@@ -574,15 +577,15 @@ public class CustomDriver {
         WebElement element = null;
         try {
             driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
-            System.out.println("Waiting for max:: " + timeout + " seconds for element to be clickable");
+            log.info("Waiting for max:: " + timeout + " seconds for element to be clickable");
 
             WebDriverWait wait = new WebDriverWait(driver, 15);
             element = wait.until(
                     ExpectedConditions.elementToBeClickable(byType));
-            System.out.println("Element is clickable on the web page");
+            log.info("Element is clickable on the web page");
             driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         } catch (Exception e) {
-            System.out.println("Element not appeared on the web page");
+            log.error("Element not appeared on the web page");
             driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         }
         return element;
@@ -596,14 +599,14 @@ public class CustomDriver {
         boolean elementInvisible = false;
         try {
             driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
-            System.out.println("Waiting for max:: " + timeout + " seconds for element to be available");
+            log.info("Waiting for max:: " + timeout + " seconds for element to be available");
             WebDriverWait wait = new WebDriverWait(driver, timeout);
             elementInvisible = wait.until(
                     ExpectedConditions.invisibilityOfElementLocated(byType));
-            System.out.println("Element appeared on the web page");
+            log.info("Element appeared on the web page");
             driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         } catch (Exception e) {
-            System.out.println("Element not appeared on the web page");
+            log.error("Element not appeared on the web page");
             driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         }
         return elementInvisible;
@@ -628,7 +631,7 @@ public class CustomDriver {
     public void selectOption(WebElement element, String optionToSelect) {
         Select sel = new Select(element);
         sel.selectByVisibleText(optionToSelect);
-        System.out.println("Selected option : " + optionToSelect);
+        log.info("Selected option : " + optionToSelect);
     }
 
     /**
@@ -669,9 +672,9 @@ public class CustomDriver {
             }
         }
         if (exists) {
-            System.out.println("Selected Option : " + optionToVerify + " exist");
+            log.info("Selected Option : " + optionToVerify + " exist");
         } else {
-            System.out.println("Selected Option : " + optionToVerify + " does not exist");
+            log.info("Selected Option : " + optionToVerify + " does not exist");
         }
         return exists;
     }
@@ -692,7 +695,7 @@ public class CustomDriver {
             File screenshot = ((TakesScreenshot) driver).
                     getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(screenshot, new File(path));
-            System.out.println("Screen Shot Was Stored at: " + path);
+            log.info("Screen Shot Was Stored at: " + path);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -702,7 +705,7 @@ public class CustomDriver {
     public void DoubleClick(WebElement element, String info) {
         Actions action = new Actions(driver);
         action.doubleClick(element);
-        System.out.println("Double Clicked on :: " + info);
+        log.info("Double Clicked on :: " + info);
         action.perform();
     }
 
@@ -715,7 +718,7 @@ public class CustomDriver {
         WebElement element = getElement(locator, info);
         Actions action = new Actions(driver);
         action.contextClick(element).build().perform();
-        System.out.println("Double Clicked on :: " + info);
+        log.info("Double Clicked on :: " + info);
     }
 
     /**
@@ -738,6 +741,6 @@ public class CustomDriver {
     public void keyPress(Keys key, String info) {
         Actions action = new Actions(driver);
         action.keyDown(key).build().perform();
-        System.out.println("Key Pressed :: " + info);
+        log.info("Key Pressed :: " + info);
     }
 }

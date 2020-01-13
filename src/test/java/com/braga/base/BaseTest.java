@@ -2,6 +2,7 @@ package com.braga.base;
 
 import com.braga.pages.*;
 import com.braga.utilities.CheckPoint;
+import com.braga.utilities.Constants;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -21,7 +22,7 @@ public class BaseTest {
     @Parameters({"browser"})
     public void commonSetUp(String browser) {
         driver = DriverFactory.getInstance().getDriver(browser);
-        baseURL = "https://learn.letskodeit.com";
+        baseURL = Constants.BASE_URL;
         driver.get(baseURL);
         pNavigation = new NavigationPage(driver);
         pLogin = pNavigation.login();

@@ -3,8 +3,8 @@
     <test name="Application Test" preserve-order="true">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <!--class name="com.braga.tests.AllCoursesTests"></class-->
-            <class name="com.braga.tests.LoginTests"></class>
+            <class name="com.braga.tests.AllCoursesTests"></class>
+            <!--class name="com.braga.tests.LoginTests"></class-->
         </classes>
     </test>
 </suite>
