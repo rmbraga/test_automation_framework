@@ -2,27 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b6bb2e8-013d-43de-b245-dc25ebf415ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/braga/utilities/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/braga/utilities/ExcelUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/configs/Log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testdata/ExcelTestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/regression_testng_chrome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/regression_testng_chrome.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/braga/base/CustomDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/braga/base/CustomDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/braga/utilities/CheckPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/braga/utilities/CheckPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/braga/utilities/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/braga/utilities/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/braga/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/braga/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/braga/base/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/braga/base/DriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/braga/tests/AllCoursesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/braga/tests/AllCoursesTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/braga/base/CustomDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/braga/base/CustomDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/braga/utilities/CheckPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/braga/utilities/CheckPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/braga/utilities/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/braga/utilities/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/braga/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/braga/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/parallel-framework.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/braga/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/braga/base/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/braga/base/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/braga/base/DriverFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/braga/tests/AllCoursesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/braga/tests/AllCoursesTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/braga/tests/AllCoursesTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/braga/tests/LoginTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/braga" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/testdata" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -69,14 +60,14 @@
       <recent name="com.braga.base" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework\src\main\resources\testdata" />
       <recent name="C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework" />
+      <recent name="C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework\src\main\resources\testdata" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.braga.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Rafael_Braga/eclipse-workspace/Git Projects/parallel-framework/regression_testng_chrome.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Rafael_Braga/eclipse-workspace/Git Projects/parallel-framework/regression_testng_chrome2.xml">
     <configuration name="AllCoursesTests.verifySearchCourse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="parallel-framework" />
       <extension name="coverage">
@@ -95,6 +86,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Rafael_Braga/eclipse-workspace/Git Projects/parallel-framework/regression_testng_chrome2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="parallel-framework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/regression_testng_chrome2.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Rafael_Braga/eclipse-workspace/Git Projects/parallel-framework/regression_testng_chrome.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="parallel-framework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/regression_testng_chrome.xml" />
@@ -105,9 +106,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Rafael_Braga/eclipse-workspace/Git Projects/parallel-framework/regression_testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Rafael_Braga/eclipse-workspace/Git Projects/parallel-framework/regression_testng_ff.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="parallel-framework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/regression_testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/regression_testng_ff.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -115,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Parallel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="parallel-framework" />
       <extension name="coverage">
         <pattern>
@@ -124,26 +125,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.braga.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.braga.tests.LoginTests" />
+      <option name="MAIN_CLASS_NAME" value="com.braga.tests.Parallel" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="parallel-framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.braga.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.braga.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.braga.tests.LoginTests" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Rafael_Braga/eclipse-workspace/Git Projects/parallel-framework/regression_testng_chrome2.xml" />
+        <item itemvalue="TestNG.Parallel" />
         <item itemvalue="TestNG.C:/Users/Rafael_Braga/eclipse-workspace/Git Projects/parallel-framework/regression_testng_chrome.xml" />
+        <item itemvalue="TestNG.C:/Users/Rafael_Braga/eclipse-workspace/Git Projects/parallel-framework/regression_testng_ff.xml" />
         <item itemvalue="TestNG.AllCoursesTests.verifySearchCourse" />
-        <item itemvalue="TestNG.LoginTests.testLogin" />
-        <item itemvalue="TestNG.LoginTests" />
-        <item itemvalue="TestNG.C:/Users/Rafael_Braga/eclipse-workspace/Git Projects/parallel-framework/regression_testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +166,14 @@
       <option name="presentableId" value="Default" />
       <updated>1578476378752</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding methods for excel reading, and also logs with Log4j.">
+      <created>1578927053218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578927053218</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,88 +181,70 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding methods for excel reading, and also logs with Log4j." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding methods for excel reading, and also logs with Log4j." />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578668958286">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="3005" y="410" key="#com.intellij.ide.util.MemberChooser" timestamp="1605197010852">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1578668958286" />
-    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1578659428286">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="3005" y="410" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605197010852" />
+    <state x="2996" y="560" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605197084722">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578659428286" />
-    <state x="950" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578661618570">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2996" y="560" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605197084722" />
+    <state width="2517" height="376" key="GridCell.Tab.0.bottom" timestamp="1605282000529">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="950" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1578661618570" />
-    <state x="421" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578491753324">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2517" height="376" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605282000529" />
+    <state width="2517" height="376" key="GridCell.Tab.0.center" timestamp="1605282000529">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="421" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1578491753324" />
-    <state x="115" y="0" width="1211" height="808" key="CommitChangelistDialog2" timestamp="1578927022139">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2517" height="376" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605282000529" />
+    <state width="2517" height="376" key="GridCell.Tab.0.left" timestamp="1605282000528">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="115" y="0" width="1211" height="808" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578927022139" />
-    <state width="723" height="178" key="GridCell.Tab.0.bottom" timestamp="1578927022168">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2517" height="376" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605282000528" />
+    <state width="2517" height="376" key="GridCell.Tab.0.right" timestamp="1605282000529">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="723" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578927022168" />
-    <state width="723" height="178" key="GridCell.Tab.0.center" timestamp="1578927022168">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2517" height="376" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605282000529" />
+    <state width="2517" height="440" key="GridCell.Tab.1.bottom" timestamp="1605202347683">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="723" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578927022168" />
-    <state width="723" height="178" key="GridCell.Tab.0.left" timestamp="1578927022168">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2517" height="440" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605202347683" />
+    <state width="2517" height="440" key="GridCell.Tab.1.center" timestamp="1605202347682">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="723" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578927022168" />
-    <state width="723" height="178" key="GridCell.Tab.0.right" timestamp="1578927022168">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2517" height="440" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605202347682" />
+    <state width="2517" height="440" key="GridCell.Tab.1.left" timestamp="1605202347682">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="723" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578927022168" />
-    <state width="1493" height="233" key="GridCell.Tab.1.bottom" timestamp="1578663433573">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2517" height="440" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605202347682" />
+    <state width="2517" height="440" key="GridCell.Tab.1.right" timestamp="1605202347682">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578663433573" />
-    <state width="1493" height="233" key="GridCell.Tab.1.center" timestamp="1578663433573">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2517" height="440" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605202347682" />
+    <state x="2875" y="412" key="RollbackChangesDialog" timestamp="1605201667796">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578663433573" />
-    <state width="1493" height="233" key="GridCell.Tab.1.left" timestamp="1578663433573">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2875" y="412" key="RollbackChangesDialog/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605201667796" />
+    <state x="2896" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1605201619810">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578663433573" />
-    <state width="1493" height="233" key="GridCell.Tab.1.right" timestamp="1578663433573">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2896" y="525" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605201619810" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1605197992781">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578663433573" />
-    <state x="598" y="71" key="Maven.ArtifactSearchDialog" timestamp="1578668046386">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="598" y="71" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1578668046386" />
-    <state x="277" y="56" key="SettingsEditor" timestamp="1578926721752">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578926721752" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1578926901404">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578926901404" />
-    <state x="967" y="191" key="chooseDestDirectoryDialog" timestamp="1578562584832">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="967" y="191" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1578562584832" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1578563838981">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578563838981" />
-    <state x="848" y="147" width="609" height="536" key="find.popup" timestamp="1578926593291">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="848" y="147" width="609" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1578926593291" />
+    <state width="600" height="424" key="javadoc.popup/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605197992781" />
   </component>
 </project>

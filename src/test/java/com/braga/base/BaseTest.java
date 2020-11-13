@@ -1,40 +1,31 @@
 package com.braga.base;
 
 import com.braga.pages.*;
-import com.braga.utilities.CheckPoint;
 import com.braga.utilities.Constants;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 public class BaseTest {
-    public WebDriver driver;
+    private WebDriver driver;
     protected String baseURL;
     protected LoginPage pLogin;
     protected NavigationPage pNavigation;
     protected CategoryFilterPage pCategory;
     protected SearchBarPage pSearch;
     protected ResultsPage pResults;
+    protected String browser;
 
     @BeforeClass
     @Parameters({"browser"})
     public void commonSetUp(String browser) {
-        driver = DriverFactory.getInstance().getDriver(browser);
+        this.browser = browser;
         baseURL = Constants.BASE_URL;
-        driver.get(baseURL);
-        pNavigation = new NavigationPage(driver);
-        pLogin = pNavigation.login();
     }
 
-    @BeforeMethod
-    public void methodSetup() {
-        CheckPoint.clearHashMap();
-    }
-
-    @AfterClass
-    public void commonTearDown() {
-        DriverFactory.getInstance().quitDriver();
-    }
+//    @AfterClass
+//    public void commonTearDown() {
+//        DriverFactory.quitDriver();
+//    }
 }

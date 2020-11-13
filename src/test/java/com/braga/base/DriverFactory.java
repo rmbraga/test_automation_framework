@@ -1,7 +1,6 @@
 package com.braga.base;
 
 import com.braga.utilities.Constants;
-import com.braga.utilities.Util;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -15,31 +14,30 @@ import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
     private static final Logger log = LogManager.getLogger(DriverFactory.class.getName());
-    // Singleton
-    // Only one instance of the class can exist at a time
-    private static final DriverFactory instance = new DriverFactory();
-
-    private DriverFactory() {
-    }
-
-    public static DriverFactory getInstance() {
-        return instance;
-    }
+    //Singleton
+    //Only one instance of the class can exist at a time
+//    private static final DriverFactory instance = new DriverFactory();
+//
+//    private DriverFactory() {
+//    }
+//
+//    public static DriverFactory getInstance() {
+//        return instance;
+//    }
 
     private static ThreadLocal<WebDriver> threadedDriver = new ThreadLocal<WebDriver>();
 
-    public WebDriver getDriver(String browser) {
+    public static WebDriver getDriver(String browser) {
         WebDriver driver = null;
         setDriver(browser);
         if (threadedDriver.get() == null) {
             try {
                 if (browser.equalsIgnoreCase(Constants.FF)) {
                     driver = new FirefoxDriver(setFFOptions());
-                    threadedDriver.set(driver);
                 } else if (browser.equalsIgnoreCase(Constants.CHROME)) {
                     driver = new ChromeDriver(setChromeOptions());
-                    threadedDriver.set(driver);
                 }
+                threadedDriver.set(driver);
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -49,12 +47,12 @@ public class DriverFactory {
         return threadedDriver.get();
     }
 
-    public void quitDriver() {
+    public static void quitDriver() {
         threadedDriver.get().quit();
-        threadedDriver.set(null);
+        threadedDriver.remove();
     }
 
-    private void setDriver(String browser) {
+    private static void setDriver(String browser) {
         String driverPath = "";
         String os = System.getProperty("os.name").toLowerCase().substring(0, 3);
         String directory = Constants.USER_DIRECTORY + "//" + Constants.DRIVERS_DIRECTORY;
@@ -78,14 +76,14 @@ public class DriverFactory {
         System.setProperty(driverKey, driverPath);
     }
 
-    private ChromeOptions setChromeOptions() {
+    private static ChromeOptions setChromeOptions() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
         options.addArguments("disable-infobars");
         return options;
     }
 
-    private FirefoxOptions setFFOptions() {
+    private static FirefoxOptions setFFOptions() {
         FirefoxOptions options = new FirefoxOptions();
         options.setCapability(CapabilityType.HAS_NATIVE_EVENTS, false);
         return options;
