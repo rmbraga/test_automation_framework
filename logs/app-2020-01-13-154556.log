@@ -1,0 +1,2 @@
+15:45:56.298 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+15:45:56.447 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc

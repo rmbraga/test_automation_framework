@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b6bb2e8-013d-43de-b245-dc25ebf415ee" name="Default Changelist" comment="">
+    <list default="true" id="0b6bb2e8-013d-43de-b245-dc25ebf415ee" name="Default Changelist" comment="Adjusting parallel execution.">
+      <change afterPath="$PROJECT_DIR$/logs/app-2020-01-13-154537.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app-2020-01-13-154551.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app-2020-01-13-154556.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app-2020-01-13-154600.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app-2020-01-13-154601.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app-2020-01-13-154606.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app-2020-01-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app-2020-11-12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regression_testng_chrome2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/braga/base/ReportListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/braga/tests/Parallel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/braga/utilities/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/braga/utilities/ExcelUtility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/braga/base/ReportListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/braga/tests/Parallel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/_Click ERROR_11_12_2020 17_52_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/_Click ERROR_11_12_2020 17_54_46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/_Click ERROR_11_12_2020 17_55_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/_Click ERROR_11_12_2020 18_03_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/_Click ERROR_11_12_2020 18_04_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/_Click ERROR_11_12_2020 18_11_11.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_testng_chrome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/regression_testng_chrome.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/braga/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/braga/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/braga/base/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/braga/base/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/braga/tests/AllCoursesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/braga/tests/AllCoursesTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/braga/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/braga/tests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/parallel-framework.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/braga/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/braga/base/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/braga/base/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/braga/base/DriverFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/braga/tests/AllCoursesTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/braga/tests/LoginTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578927053218</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adjusting parallel execution.">
+      <created>1605282047736</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605282047736</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +210,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding methods for excel reading, and also logs with Log4j." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding methods for excel reading, and also logs with Log4j." />
+    <MESSAGE value="Adjusting parallel execution." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusting parallel execution." />
   </component>
   <component name="WindowStateProjectService">
     <state x="3005" y="410" key="#com.intellij.ide.util.MemberChooser" timestamp="1605197010852">
@@ -202,22 +222,26 @@
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="2996" y="560" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605197084722" />
-    <state width="2517" height="376" key="GridCell.Tab.0.bottom" timestamp="1605282000529">
+    <state x="2757" y="295" key="CommitChangelistDialog2" timestamp="1605282091644">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="376" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605282000529" />
-    <state width="2517" height="376" key="GridCell.Tab.0.center" timestamp="1605282000529">
+    <state x="2757" y="295" key="CommitChangelistDialog2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605282091644" />
+    <state width="1258" height="376" key="GridCell.Tab.0.bottom" timestamp="1605282911411">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="376" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605282000529" />
-    <state width="2517" height="376" key="GridCell.Tab.0.left" timestamp="1605282000528">
+    <state width="1258" height="376" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605282911411" />
+    <state width="1258" height="376" key="GridCell.Tab.0.center" timestamp="1605282911411">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="376" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605282000528" />
-    <state width="2517" height="376" key="GridCell.Tab.0.right" timestamp="1605282000529">
+    <state width="1258" height="376" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605282911411" />
+    <state width="1258" height="376" key="GridCell.Tab.0.left" timestamp="1605282911410">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="376" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605282000529" />
+    <state width="1258" height="376" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605282911410" />
+    <state width="1258" height="376" key="GridCell.Tab.0.right" timestamp="1605282911411">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="376" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605282911411" />
     <state width="2517" height="440" key="GridCell.Tab.1.bottom" timestamp="1605202347683">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
@@ -238,6 +262,10 @@
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="2875" y="412" key="RollbackChangesDialog/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605201667796" />
+    <state x="2792" y="434" key="Vcs.Push.Dialog.v2" timestamp="1605282701617">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2792" y="434" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1605282701617" />
     <state x="2896" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1605201619810">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>

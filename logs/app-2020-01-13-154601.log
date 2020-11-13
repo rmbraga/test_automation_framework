@@ -1,0 +1,3 @@
+15:46:01.069 INFO  utilities.CheckPoint -Clearing Results Hash Map
+15:46:01.161 INFO  base.CustomDriver -Clicked On :: ALL Courses Link
+15:46:01.343 INFO  base.CustomDriver -Send Keys on element :: Search Course Field with data :: rest api

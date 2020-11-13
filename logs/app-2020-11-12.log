@@ -1,0 +1,545 @@
+17:31:56.404 INFO  base.DriverFactory -OS name from system property :: win
+17:31:56.455 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//geckodriver.exe
+17:31:56.720 INFO  base.DriverFactory -OS name from system property :: win
+17:31:56.720 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//geckodriver.exe
+17:45:31.261 INFO  base.DriverFactory -OS name from system property :: win
+17:45:31.305 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+17:49:23.984 INFO  base.DriverFactory -OS name from system property :: win
+17:49:24.026 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+17:51:57.727 INFO  base.DriverFactory -OS name from system property :: win
+17:51:57.760 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+17:52:08.960 INFO  base.CustomDriver -Clicked On :: Login Link
+17:52:12.906 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+17:52:13.079 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+17:52:13.654 INFO  base.CustomDriver -Clicked On :: Login Button
+17:52:15.094 INFO  utilities.CheckPoint -Clearing Results Hash Map
+17:52:25.131 ERROR base.CustomDriver -Element not found with: xpath=>//a[contains(text(), 'All Courses')]
+17:52:25.140 ERROR base.CustomDriver -Cannot click on :: ALL Courses Link
+17:52:25.143 INFO  utilities.Util -Date and Time :: 11_12_2020 17_52_25
+17:52:25.878 INFO  base.CustomDriver -Screen Shot Was Stored at: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework//test-output/screenshots//_Click ERROR_11_12_2020 17_52_25.png
+17:52:35.929 ERROR base.CustomDriver -Element not found with: id=>search-courses
+17:52:35.932 ERROR base.CustomDriver -Cannot send keys on element :: Search Course Field with data :: rest api
+17:52:43.114 INFO  base.CustomDriver -Clicked On :: Search Course Button
+17:52:43.179 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='course-listing']
+17:52:43.188 INFO  base.CustomDriver -Current URL is :: https://letskodeit.teachable.com/courses?query=
+17:52:43.194 INFO  utilities.CheckPoint -Clearing Results Hash Map
+17:52:43.307 INFO  base.CustomDriver -Clicked On :: ALL Courses Link
+17:52:43.558 INFO  base.CustomDriver -Send Keys on element :: Search Course Field with data :: javascript
+17:52:44.755 INFO  base.CustomDriver -Clicked On :: Search Course Button
+17:52:44.770 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='course-listing']
+17:52:44.776 INFO  base.CustomDriver -Current URL is :: https://letskodeit.teachable.com/courses?query=javascript
+17:53:24.064 INFO  base.DriverFactory -OS name from system property :: win
+17:53:24.100 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+17:53:34.822 INFO  base.CustomDriver -Clicked On :: Login Link
+17:53:38.747 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+17:53:38.917 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+17:53:39.477 INFO  base.CustomDriver -Clicked On :: Login Button
+17:53:41.330 INFO  utilities.CheckPoint -Clearing Results Hash Map
+17:53:48.937 ERROR base.CustomDriver -Element not found with: xpath=>//a[contains(text(), 'All Courses')]
+17:53:48.940 ERROR base.CustomDriver -Cannot click on :: ALL Courses Link
+17:53:48.943 INFO  utilities.Util -Date and Time :: 11_12_2020 17_53_48
+17:53:49.141 ERROR base.CustomDriver -Element not found with: id=>search-courses
+17:53:49.145 ERROR base.CustomDriver -Cannot send keys on element :: Search Course Field with data :: rest api
+17:53:49.161 ERROR base.CustomDriver -Element not found with: id=>search-course-button
+17:53:49.191 ERROR base.CustomDriver -Cannot click on :: Search Course Button
+17:53:49.191 INFO  utilities.Util -Date and Time :: 11_12_2020 17_53_49
+17:53:49.392 ERROR base.CustomDriver -Element List not found with: xpath=>//div[@class='course-listing']
+17:53:49.485 INFO  utilities.CheckPoint -Clearing Results Hash Map
+17:53:49.582 ERROR base.CustomDriver -Element not found with: xpath=>//a[contains(text(), 'All Courses')]
+17:53:49.586 ERROR base.CustomDriver -Cannot click on :: ALL Courses Link
+17:53:49.586 INFO  utilities.Util -Date and Time :: 11_12_2020 17_53_49
+17:53:49.622 ERROR base.CustomDriver -Element not found with: id=>search-courses
+17:53:49.624 ERROR base.CustomDriver -Cannot send keys on element :: Search Course Field with data :: javascript
+17:53:49.638 ERROR base.CustomDriver -Element not found with: id=>search-course-button
+17:53:49.645 ERROR base.CustomDriver -Cannot click on :: Search Course Button
+17:53:49.646 INFO  utilities.Util -Date and Time :: 11_12_2020 17_53_49
+17:53:49.681 ERROR base.CustomDriver -Element List not found with: xpath=>//div[@class='course-listing']
+17:54:10.561 INFO  base.DriverFactory -OS name from system property :: win
+17:54:10.561 INFO  base.DriverFactory -OS name from system property :: win
+17:54:10.595 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+17:54:10.596 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+17:54:24.985 INFO  base.CustomDriver -Clicked On :: Login Link
+17:54:25.006 INFO  utilities.CheckPoint -Clearing Results Hash Map
+17:54:25.007 INFO  utilities.CheckPoint -Clearing Results Hash Map
+17:54:25.253 INFO  base.CustomDriver -Clicked On :: Login Link
+17:54:33.519 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+17:54:33.722 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+17:54:34.305 INFO  base.CustomDriver -Clicked On :: Login Button
+17:54:34.527 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email
+17:54:34.761 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+17:54:35.267 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+17:54:35.510 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+17:54:36.072 INFO  base.CustomDriver -Clicked On :: Login Button
+17:54:36.220 INFO  utilities.CheckPoint -Clearing Results Hash Map
+17:54:36.358 INFO  base.CustomDriver -Clicked On :: Login Button
+17:54:46.359 ERROR base.CustomDriver -Element not found with: xpath=>//a[contains(text(), 'All Courses')]
+17:54:46.364 ERROR base.CustomDriver -Cannot click on :: ALL Courses Link
+17:54:46.366 INFO  utilities.Util -Date and Time :: 11_12_2020 17_54_46
+17:54:46.379 INFO  base.CustomDriver -Element List not found with: class=>gravatar
+17:54:46.778 INFO  base.CustomDriver -Screen Shot Was Stored at: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework//test-output/screenshots//_Click ERROR_11_12_2020 17_54_46.png
+17:54:56.408 ERROR base.CustomDriver -Element not found with: xpath=>//a[contains(text(), 'All Courses')]
+17:54:56.840 ERROR base.CustomDriver -Element not found with: id=>search-courses
+17:54:56.842 ERROR base.CustomDriver -Cannot send keys on element :: Search Course Field with data :: rest api
+17:55:06.439 INFO  base.CustomDriver -Element List not found with: class=>gravatar
+17:55:06.868 ERROR base.CustomDriver -Element not found with: id=>search-course-button
+17:55:06.870 ERROR base.CustomDriver -Cannot click on :: Search Course Button
+17:55:06.871 INFO  utilities.Util -Date and Time :: 11_12_2020 17_55_06
+17:55:07.446 INFO  base.CustomDriver -Screen Shot Was Stored at: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework//test-output/screenshots//_Click ERROR_11_12_2020 17_55_06.png
+17:55:15.302 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='course-listing']
+17:55:15.382 INFO  base.CustomDriver -Current URL is :: https://letskodeit.teachable.com/
+17:55:15.386 INFO  utilities.CheckPoint -Clearing Results Hash Map
+17:55:15.521 INFO  base.CustomDriver -Clicked On :: ALL Courses Link
+17:55:15.701 INFO  base.CustomDriver -Send Keys on element :: Search Course Field with data :: javascript
+17:55:16.482 INFO  base.CustomDriver -Element List not found with: class=>gravatar
+17:55:17.123 INFO  base.CustomDriver -Clicked On :: Search Course Button
+17:55:17.140 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='course-listing']
+17:55:17.147 INFO  base.CustomDriver -Current URL is :: https://letskodeit.teachable.com/courses?query=javascript
+17:55:49.068 INFO  base.DriverFactory -OS name from system property :: win
+17:55:49.068 INFO  base.DriverFactory -OS name from system property :: win
+17:55:49.104 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+17:55:49.104 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+17:56:01.911 INFO  base.CustomDriver -Clicked On :: Login Link
+17:56:01.995 INFO  base.CustomDriver -Clicked On :: Login Link
+17:56:02.011 INFO  utilities.CheckPoint -Clearing Results Hash Map
+17:56:02.017 INFO  utilities.CheckPoint -Clearing Results Hash Map
+17:57:44.291 INFO  base.DriverFactory -OS name from system property :: win
+17:57:44.335 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+17:57:55.274 INFO  base.CustomDriver -Clicked On :: Login Link
+17:57:55.307 INFO  utilities.CheckPoint -Clearing Results Hash Map
+17:57:55.307 INFO  utilities.CheckPoint -Clearing Results Hash Map
+17:57:58.962 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email
+17:57:59.044 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+17:57:59.241 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+17:57:59.285 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+17:57:59.524 INFO  base.CustomDriver -Clicked On :: Login Button
+17:57:59.583 INFO  base.CustomDriver -Clicked On :: Login Button
+17:58:09.593 INFO  base.CustomDriver -Element List not found with: class=>gravatar
+17:58:15.534 ERROR base.CustomDriver -Element not found with: xpath=>//a[contains(text(), 'All Courses')]
+17:58:15.544 ERROR base.CustomDriver -Element List not found with: class=>gravatar
+17:58:15.587 ERROR base.CustomDriver -Element List not found with: class=>gravatar
+18:00:45.235 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:00:45.235 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:00:45.268 INFO  base.DriverFactory -OS name from system property :: win
+18:00:45.269 INFO  base.DriverFactory -OS name from system property :: win
+18:00:45.290 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:00:45.290 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:00:57.065 INFO  base.CustomDriver -Clicked On :: Login Link
+18:00:57.139 INFO  base.CustomDriver -Clicked On :: Login Link
+18:01:01.240 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email
+18:01:01.301 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+18:01:01.489 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+18:01:01.528 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+18:01:01.684 INFO  base.CustomDriver -Clicked On :: Login Button
+18:01:01.740 INFO  base.CustomDriver -Clicked On :: Login Button
+18:01:11.812 INFO  base.CustomDriver -Element List not found with: class=>gravatar
+18:01:21.856 ERROR base.CustomDriver -Element not found with: xpath=>//a[contains(text(), 'All Courses')]
+18:01:31.903 INFO  base.CustomDriver -Element List not found with: class=>gravatar
+18:01:41.918 INFO  base.CustomDriver -Element List not found with: class=>gravatar
+18:02:48.372 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:02:48.372 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:02:48.398 INFO  base.DriverFactory -OS name from system property :: win
+18:02:48.401 INFO  base.DriverFactory -OS name from system property :: win
+18:02:48.412 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:02:48.413 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:03:05.843 ERROR base.CustomDriver -Element not found with: xpath=>//a[@href='/sign_in']
+18:03:05.846 ERROR base.CustomDriver -Cannot click on :: Login Link
+18:03:05.849 INFO  utilities.Util -Date and Time :: 11_12_2020 18_03_05
+18:03:05.883 ERROR base.CustomDriver -Element not found with: xpath=>//a[@href='/sign_in']
+18:03:05.887 ERROR base.CustomDriver -Cannot click on :: Login Link
+18:03:05.888 INFO  utilities.Util -Date and Time :: 11_12_2020 18_03_05
+18:03:06.309 INFO  base.CustomDriver -Screen Shot Was Stored at: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework//test-output/screenshots//_Click ERROR_11_12_2020 18_03_05.png
+18:03:06.310 INFO  base.CustomDriver -Screen Shot Was Stored at: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework//test-output/screenshots//_Click ERROR_11_12_2020 18_03_05.png
+18:03:20.839 ERROR base.CustomDriver -Element not found with: id=>user_email
+18:03:20.872 ERROR base.CustomDriver -Cannot send keys on element :: Email Field with data :: test@email
+18:03:30.631 ERROR base.CustomDriver -Element not found with: id=>user_email
+18:03:30.634 ERROR base.CustomDriver -Cannot send keys on element :: Email Field with data :: test@email.com
+18:03:30.666 ERROR base.CustomDriver -Element not found with: id=>user_password
+18:03:30.668 ERROR base.CustomDriver -Cannot send keys on element :: Password Field with data :: abcabc
+18:03:30.681 ERROR base.CustomDriver -Element not found with: id=>user_password
+18:03:30.684 ERROR base.CustomDriver -Cannot send keys on element :: Password Field with data :: abcabc
+18:03:30.719 ERROR base.CustomDriver -Element not found with: name=>commit
+18:03:30.719 ERROR base.CustomDriver -Element not found with: name=>commit
+18:03:30.721 ERROR base.CustomDriver -Cannot click on :: Login Button
+18:03:30.721 INFO  utilities.Util -Date and Time :: 11_12_2020 18_03_30
+18:03:30.724 ERROR base.CustomDriver -Cannot click on :: Login Button
+18:03:30.724 INFO  utilities.Util -Date and Time :: 11_12_2020 18_03_30
+18:03:30.754 ERROR base.CustomDriver -Element not found with: xpath=>//a[contains(text(), 'All Courses')]
+18:03:30.754 ERROR base.CustomDriver -Element List not found with: class=>gravatar
+18:03:30.835 ERROR base.CustomDriver -Element List not found with: class=>gravatar
+18:03:30.843 ERROR base.CustomDriver -Element List not found with: class=>gravatar
+18:04:11.133 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:04:11.133 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:04:11.153 INFO  base.DriverFactory -OS name from system property :: win
+18:04:11.154 INFO  base.DriverFactory -OS name from system property :: win
+18:04:11.192 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:04:11.205 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:04:27.940 ERROR base.CustomDriver -Element not found with: xpath=>//a[@href='/sign_in']
+18:04:27.943 ERROR base.CustomDriver -Cannot click on :: Login Link
+18:04:27.947 INFO  utilities.Util -Date and Time :: 11_12_2020 18_04_27
+18:04:27.953 ERROR base.CustomDriver -Element not found with: xpath=>//a[@href='/sign_in']
+18:04:27.955 ERROR base.CustomDriver -Cannot click on :: Login Link
+18:04:27.956 INFO  utilities.Util -Date and Time :: 11_12_2020 18_04_27
+18:04:28.407 INFO  base.CustomDriver -Screen Shot Was Stored at: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework//test-output/screenshots//_Click ERROR_11_12_2020 18_04_27.png
+18:04:28.435 INFO  base.CustomDriver -Screen Shot Was Stored at: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework//test-output/screenshots//_Click ERROR_11_12_2020 18_04_27.png
+18:06:30.078 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:06:30.078 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:06:30.105 INFO  base.DriverFactory -OS name from system property :: win
+18:06:30.106 INFO  base.DriverFactory -OS name from system property :: win
+18:06:30.123 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:06:30.124 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:06:41.823 INFO  base.CustomDriver -Clicked On :: Login Link
+18:06:41.876 INFO  base.CustomDriver -Clicked On :: Login Link
+18:06:46.486 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email
+18:06:46.599 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+18:06:46.776 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+18:06:46.822 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+18:06:47.065 INFO  base.CustomDriver -Clicked On :: Login Button
+18:06:47.120 INFO  base.CustomDriver -Clicked On :: Login Button
+18:06:57.193 INFO  base.CustomDriver -Element List not found with: class=>gravatar
+18:07:02.260 ERROR base.CustomDriver -Element not found with: xpath=>//a[contains(text(), 'All Courses')]
+18:07:02.285 ERROR base.CustomDriver -Element List not found with: class=>gravatar
+18:07:02.317 ERROR base.CustomDriver -Element List not found with: class=>gravatar
+18:10:54.465 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:10:54.465 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:10:54.494 INFO  base.DriverFactory -OS name from system property :: win
+18:10:54.494 INFO  base.DriverFactory -OS name from system property :: win
+18:10:54.510 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:10:54.511 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:11:06.991 INFO  base.CustomDriver -Clicked On :: Login Link
+18:11:11.035 ERROR base.CustomDriver -Cannot click on :: Login Link
+18:11:11.040 INFO  utilities.Util -Date and Time :: 11_12_2020 18_11_11
+18:11:12.042 INFO  base.CustomDriver -Screen Shot Was Stored at: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework//test-output/screenshots//_Click ERROR_11_12_2020 18_11_11.png
+18:11:12.158 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+18:11:12.383 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email
+18:11:12.500 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+18:11:13.172 INFO  base.CustomDriver -Clicked On :: Login Button
+18:11:13.189 ERROR base.CustomDriver -Cannot send keys on element :: Password Field with data :: abcabc
+18:11:23.822 ERROR base.CustomDriver -Element not found with: xpath=>//a[contains(text(), 'All Courses')]
+18:11:35.837 ERROR base.CustomDriver -Element not found with: name=>commit
+18:11:35.842 ERROR base.CustomDriver -Cannot click on :: Login Button
+18:11:35.842 INFO  utilities.Util -Date and Time :: 11_12_2020 18_11_35
+18:11:47.862 ERROR base.CustomDriver -Element List not found with: class=>gravatar
+18:12:11.897 ERROR base.CustomDriver -Element List not found with: class=>gravatar
+18:12:28.335 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:12:28.339 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:12:28.366 INFO  base.DriverFactory -OS name from system property :: win
+18:12:28.367 INFO  base.DriverFactory -OS name from system property :: win
+18:12:28.388 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:12:28.389 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:12:39.860 INFO  base.CustomDriver -Clicked On :: Login Link
+18:12:39.918 INFO  base.CustomDriver -Clicked On :: Login Link
+18:12:44.161 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email
+18:12:44.479 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+18:12:44.720 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+18:12:44.771 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+18:12:45.406 INFO  base.CustomDriver -Clicked On :: Login Button
+18:12:45.515 INFO  base.CustomDriver -Clicked On :: Login Button
+18:12:48.271 INFO  base.CustomDriver -Element List not found with: class=>gravatar
+18:12:48.292 ERROR base.CustomDriver -Element not found with: xpath=>//a[contains(text(), 'All Courses')]
+18:12:48.301 ERROR base.CustomDriver -Element List not found with: class=>gravatar
+18:12:48.316 ERROR base.CustomDriver -Element List not found with: class=>gravatar
+18:34:28.492 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:34:28.508 INFO  base.DriverFactory -OS name from system property :: win
+18:34:28.545 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:34:41.372 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:34:41.372 INFO  base.DriverFactory -OS name from system property :: win
+18:34:41.372 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:36:09.705 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:36:09.733 INFO  base.DriverFactory -OS name from system property :: win
+18:36:09.760 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:36:15.742 INFO  base.DriverFactory -OS name from system property :: win
+18:36:15.742 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:36:22.203 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:36:22.203 INFO  base.DriverFactory -OS name from system property :: win
+18:36:22.204 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:36:22.206 INFO  base.DriverFactory -OS name from system property :: win
+18:36:22.206 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:36:51.343 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:36:51.364 INFO  base.DriverFactory -OS name from system property :: win
+18:36:51.378 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:36:58.050 INFO  base.DriverFactory -OS name from system property :: win
+18:36:58.050 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:37:03.863 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:37:03.863 INFO  base.DriverFactory -OS name from system property :: win
+18:37:03.863 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:37:03.864 INFO  base.DriverFactory -OS name from system property :: win
+18:37:03.864 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:42:31.525 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:42:31.558 INFO  base.DriverFactory -OS name from system property :: win
+18:42:31.576 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:42:44.412 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:42:44.413 INFO  base.DriverFactory -OS name from system property :: win
+18:42:44.413 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:43:38.122 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:43:38.122 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:43:38.171 INFO  base.DriverFactory -OS name from system property :: win
+18:43:38.171 INFO  base.DriverFactory -OS name from system property :: win
+18:43:38.187 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:43:38.188 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:44:54.587 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:44:54.587 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:44:54.624 INFO  base.DriverFactory -OS name from system property :: win
+18:44:54.625 INFO  base.DriverFactory -OS name from system property :: win
+18:44:54.640 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:44:54.641 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:45:50.975 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:45:50.975 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:45:51.014 INFO  base.DriverFactory -OS name from system property :: win
+18:45:51.014 INFO  base.DriverFactory -OS name from system property :: win
+18:45:51.028 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:45:51.029 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:46:06.261 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:46:06.262 INFO  base.DriverFactory -OS name from system property :: win
+18:46:06.262 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:46:09.913 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:46:09.913 INFO  base.DriverFactory -OS name from system property :: win
+18:46:09.913 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:46:09.977 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:46:09.980 INFO  base.DriverFactory -OS name from system property :: win
+18:46:09.980 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:46:09.989 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:46:09.990 INFO  base.DriverFactory -OS name from system property :: win
+18:46:09.992 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:50:41.591 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:50:41.591 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:50:41.623 INFO  base.DriverFactory -OS name from system property :: win
+18:50:41.626 INFO  base.DriverFactory -OS name from system property :: win
+18:50:41.642 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:50:41.644 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:51:30.814 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:51:30.814 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:51:30.846 INFO  base.DriverFactory -OS name from system property :: win
+18:51:30.846 INFO  base.DriverFactory -OS name from system property :: win
+18:51:30.859 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:51:30.860 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:51:44.953 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:51:44.953 INFO  base.DriverFactory -OS name from system property :: win
+18:51:44.953 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:51:51.439 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:51:51.439 INFO  base.DriverFactory -OS name from system property :: win
+18:51:51.439 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:53:50.152 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:53:50.152 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:53:50.185 INFO  base.DriverFactory -OS name from system property :: win
+18:53:50.185 INFO  base.DriverFactory -OS name from system property :: win
+18:53:50.204 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:53:50.205 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:54:05.260 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:54:05.260 INFO  base.DriverFactory -OS name from system property :: win
+18:54:05.260 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:54:08.598 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:54:08.598 INFO  base.DriverFactory -OS name from system property :: win
+18:54:08.598 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:54:34.008 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:54:34.008 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:54:34.041 INFO  base.DriverFactory -OS name from system property :: win
+18:54:34.041 INFO  base.DriverFactory -OS name from system property :: win
+18:54:34.066 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:54:34.066 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:54:48.044 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:54:48.044 INFO  base.DriverFactory -OS name from system property :: win
+18:54:48.045 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:54:50.995 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:54:50.995 INFO  base.DriverFactory -OS name from system property :: win
+18:54:50.995 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:54:51.341 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:54:51.341 INFO  base.DriverFactory -OS name from system property :: win
+18:54:51.341 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:54:55.016 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:54:55.016 INFO  base.DriverFactory -OS name from system property :: win
+18:54:55.017 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:56:31.838 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:56:31.838 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:56:31.838 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:56:31.838 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:56:31.838 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:56:31.866 INFO  base.DriverFactory -OS name from system property :: win
+18:56:31.866 INFO  base.DriverFactory -OS name from system property :: win
+18:56:31.867 INFO  base.DriverFactory -OS name from system property :: win
+18:56:31.882 INFO  base.DriverFactory -OS name from system property :: win
+18:56:31.886 INFO  base.DriverFactory -OS name from system property :: win
+18:56:31.886 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:56:31.886 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:56:31.886 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:56:31.888 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:56:31.888 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:56:54.766 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:56:54.766 INFO  base.DriverFactory -OS name from system property :: win
+18:56:54.766 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:56:55.950 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:56:55.950 INFO  base.DriverFactory -OS name from system property :: win
+18:56:55.950 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:56:56.324 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:56:56.324 INFO  base.DriverFactory -OS name from system property :: win
+18:56:56.324 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:56:56.371 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:56:56.371 INFO  base.DriverFactory -OS name from system property :: win
+18:56:56.371 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+18:56:58.941 INFO  utilities.CheckPoint -Clearing Results Hash Map
+18:56:58.941 INFO  base.DriverFactory -OS name from system property :: win
+18:56:58.941 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:00:41.085 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:00:41.085 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:00:41.085 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:00:41.084 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:00:41.085 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:00:41.110 INFO  base.DriverFactory -OS name from system property :: win
+19:00:41.110 INFO  base.DriverFactory -OS name from system property :: win
+19:00:41.112 INFO  base.DriverFactory -OS name from system property :: win
+19:00:41.113 INFO  base.DriverFactory -OS name from system property :: win
+19:00:41.115 INFO  base.DriverFactory -OS name from system property :: win
+19:00:41.123 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:00:41.124 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:00:41.125 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:00:41.126 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:00:41.126 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:01:02.848 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:01:02.848 INFO  base.DriverFactory -OS name from system property :: win
+19:01:02.848 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:01:03.005 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:01:03.005 INFO  base.DriverFactory -OS name from system property :: win
+19:01:03.005 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:01:03.108 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:01:03.108 INFO  base.DriverFactory -OS name from system property :: win
+19:01:03.108 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:01:03.275 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:01:03.275 INFO  base.DriverFactory -OS name from system property :: win
+19:01:03.276 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:01:05.924 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:01:05.924 INFO  base.DriverFactory -OS name from system property :: win
+19:01:05.924 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:05:56.487 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:05:56.487 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:05:56.487 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:05:56.517 INFO  base.DriverFactory -OS name from system property :: win
+19:05:56.518 INFO  base.DriverFactory -OS name from system property :: win
+19:05:56.526 INFO  base.DriverFactory -OS name from system property :: win
+19:05:56.531 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:05:56.531 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:05:56.531 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:06:56.101 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:06:56.101 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:06:56.101 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:06:56.134 INFO  base.DriverFactory -OS name from system property :: win
+19:06:56.134 INFO  base.DriverFactory -OS name from system property :: win
+19:06:56.135 INFO  base.DriverFactory -OS name from system property :: win
+19:06:56.148 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:06:56.149 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:06:56.149 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:07:11.670 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:07:11.670 INFO  base.DriverFactory -OS name from system property :: win
+19:07:11.670 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:07:11.741 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:07:11.741 INFO  base.DriverFactory -OS name from system property :: win
+19:07:11.742 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:07:14.481 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:07:14.481 INFO  base.DriverFactory -OS name from system property :: win
+19:07:14.481 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:08:06.101 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:08:06.101 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:08:06.100 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:08:06.128 INFO  base.DriverFactory -OS name from system property :: win
+19:08:06.129 INFO  base.DriverFactory -OS name from system property :: win
+19:08:06.131 INFO  base.DriverFactory -OS name from system property :: win
+19:08:06.147 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:08:06.148 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:08:06.158 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:08:22.475 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:08:22.475 INFO  base.DriverFactory -OS name from system property :: win
+19:08:22.476 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:08:25.171 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:08:25.171 INFO  base.DriverFactory -OS name from system property :: win
+19:08:25.171 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:08:26.470 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:08:26.471 INFO  base.DriverFactory -OS name from system property :: win
+19:08:26.471 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:09:11.738 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:09:11.738 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:09:11.738 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:09:11.771 INFO  base.DriverFactory -OS name from system property :: win
+19:09:11.772 INFO  base.DriverFactory -OS name from system property :: win
+19:09:11.772 INFO  base.DriverFactory -OS name from system property :: win
+19:09:11.786 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:09:11.787 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:09:11.787 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:09:27.746 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:09:27.747 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:09:27.747 INFO  base.DriverFactory -OS name from system property :: win
+19:09:27.747 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:09:27.747 INFO  base.DriverFactory -OS name from system property :: win
+19:09:27.747 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:09:27.767 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:09:27.768 INFO  base.DriverFactory -OS name from system property :: win
+19:09:27.768 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:22:07.270 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:22:07.270 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:22:07.270 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:22:07.304 INFO  base.DriverFactory -OS name from system property :: win
+19:22:07.304 INFO  base.DriverFactory -OS name from system property :: win
+19:22:07.307 INFO  base.DriverFactory -OS name from system property :: win
+19:22:07.321 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:22:07.322 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:22:07.323 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:22:23.403 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:22:23.404 INFO  base.DriverFactory -OS name from system property :: win
+19:22:23.404 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:22:24.582 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:22:24.583 INFO  base.DriverFactory -OS name from system property :: win
+19:22:24.583 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:22:27.014 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:22:27.015 INFO  base.DriverFactory -OS name from system property :: win
+19:22:27.015 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:23:28.951 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:23:28.951 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:23:28.951 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:23:28.990 INFO  base.DriverFactory -OS name from system property :: win
+19:23:28.990 INFO  base.DriverFactory -OS name from system property :: win
+19:23:28.995 INFO  base.DriverFactory -OS name from system property :: win
+19:23:29.003 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:23:29.004 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:23:29.004 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:23:44.720 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:23:44.721 INFO  base.DriverFactory -OS name from system property :: win
+19:23:44.721 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:23:45.073 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:23:45.073 INFO  base.DriverFactory -OS name from system property :: win
+19:23:45.073 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:23:47.638 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:23:47.638 INFO  base.DriverFactory -OS name from system property :: win
+19:23:47.638 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:24:09.860 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:24:09.860 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:24:09.860 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:24:09.901 INFO  base.DriverFactory -OS name from system property :: win
+19:24:09.903 INFO  base.DriverFactory -OS name from system property :: win
+19:24:09.901 INFO  base.DriverFactory -OS name from system property :: win
+19:24:09.916 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:24:09.917 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:24:09.920 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:24:25.307 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:24:25.308 INFO  base.DriverFactory -OS name from system property :: win
+19:24:25.308 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:24:26.409 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:24:26.409 INFO  base.DriverFactory -OS name from system property :: win
+19:24:26.409 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:24:29.690 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:24:29.691 INFO  base.DriverFactory -OS name from system property :: win
+19:24:29.691 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:25:42.514 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:25:42.513 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:25:42.513 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:25:42.617 INFO  base.DriverFactory -OS name from system property :: win
+19:25:42.618 INFO  base.DriverFactory -OS name from system property :: win
+19:25:42.618 INFO  base.DriverFactory -OS name from system property :: win
+19:25:42.705 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:25:42.707 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:25:42.721 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:26:00.996 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:26:00.997 INFO  base.DriverFactory -OS name from system property :: win
+19:26:00.997 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:26:01.031 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:26:01.031 INFO  base.DriverFactory -OS name from system property :: win
+19:26:01.031 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
+19:26:04.358 INFO  utilities.CheckPoint -Clearing Results Hash Map
+19:26:04.359 INFO  base.DriverFactory -OS name from system property :: win
+19:26:04.359 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe

@@ -1,0 +1,6 @@
+15:46:06.071 INFO  base.CustomDriver -Clicked On :: Search Course Button
+15:46:06.104 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='course-listing']
+15:46:06.113 INFO  base.CustomDriver -Current URL is :: https://learn.letskodeit.com/courses?query=rest+api
+15:46:06.120 INFO  utilities.CheckPoint -Clearing Results Hash Map
+15:46:06.207 INFO  base.CustomDriver -Clicked On :: ALL Courses Link
+15:46:06.399 INFO  base.CustomDriver -Send Keys on element :: Search Course Field with data :: javascript

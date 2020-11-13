@@ -1,0 +1,2 @@
+15:45:37.027 INFO  base.DriverFactory -OS name from system property :: win
+15:45:37.073 INFO  base.DriverFactory -Driver Binary :: C:\Users\Rafael_Braga\eclipse-workspace\Git Projects\parallel-framework////drivers//chromedriver.exe
